@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+}
+html{
+        font-size: 62.5%;
+}
+
+body{
+        padding:0 2rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+        font-size:1.6rem;
+        line-height: 1.7;
+        box-sizing:border-box;       
+}
+
+.header{
+    background-image:linear-gradient(to right bottom,rgb(0, 174, 255),aqua);
+    background-size:cover;
+    height:95vh;
+    position:relative;
+}
+
+.area{
+position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+display:block;
+
+text-align: center
+}
+.list{
+   text-decoration:none;
+   list-style: none;
+   font-size:6rem;
+   font-weight: 500;
+    TRANSITION:ALL 8;
+}
+.item{
+    display:inline-block;
+    
+}
+
+
+.list:hover li
+{
+    
+    animation:anima 2s linear ;
+}
+@keyframes anima{
+    0%{  opacity:1;
+        transform: rotate(0deg) translateY(0);
+        filter: blur(1px);
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translateY(-200px);
+        filter:blur(20px);
+    }
+}
+
+.list li:nth-child(1){
+    animation-delay: 0s;
+}
+
+.list li:nth-child(2){
+    animation-delay: .2s;
+}
+.list li:nth-child(3){
+    animation-delay: .4s;
+}
+.list li:nth-child(4){
+    animation-delay: .6s;
+}
+.list li:nth-child(5){
+    animation-delay: .8s;
+}
+.list li:nth-child(6){
+    animation-delay: 1s;
+}.list li:nth-child(7){
+    animation-delay: 1.2s;
+}.list li:nth-child(8){
+    animation-delay: 1.4s;
+}
