@@ -2,6 +2,9 @@
 
 
 ### Text
+
+   - [smoke-fade](https://shashanksirmour.github.io/css_ui/text_animations/smoke-fade/)
    
-   - [neon-glow](https://shashanksirmour.github.io/css_ui/text_animations/neon-glow/){:target="_blank"}
+   - [neon-glow](https://shashanksirmour.github.io/css_ui/text_animations/neon-glow/)
+  
 
