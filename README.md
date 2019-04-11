@@ -7,5 +7,5 @@
    
    - [neon-glow](https://shashanksirmour.github.io/css_ui/text_animations/neon-glow/)
   
-   - [neon-rotate](https://shashanksirmour.github.io/css_ui/text_animations/neon-rotate/)
+   - [neon-love-you](https://shashanksirmour.github.io/css_ui/text_animations/neon-love-you/)
 
