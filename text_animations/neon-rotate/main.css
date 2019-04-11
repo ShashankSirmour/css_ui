@@ -58,10 +58,40 @@ h1::before{
 }
 
 svg{
-    
+  
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
     fill: #ff005b;
 }
 
+@keyframes beat {
+
+
+    0%{
+        
+        transform: scale(1);
+       
+    }
+
+    80%{
+        
+        transform: scale(1.6);
+
+    }
+
+    90% {
+       
+        transform: scale(2);
+
+    }
+
+    100%{
+      
+        transform: scale(1);
+        
+    }
+}
 
 
 @keyframes on{
