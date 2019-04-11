@@ -46,7 +46,7 @@ h1::after{
     filter:blur(20px);
 }
 h1::before{
-    content:"[NEON_LIGHT]";
+    content:"[I_LOVE_YOU]";
     position:absolute;
     left:0;
     top:0;
@@ -119,11 +119,11 @@ svg{
    transform: rotate(0deg);
 }
 
-20% {
+30% {
     opacity: 0.8;
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.2);
 }
-35%
+45%
 {
 
     opacity: 0.2;
